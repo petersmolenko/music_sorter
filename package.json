@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "cz-conventional-changelog": "3.2.0",
+    "jest": "^26.0.1",
+    "spawn-command": "^0.0.2-1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "music_sorter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "fs-extra": "^9.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
